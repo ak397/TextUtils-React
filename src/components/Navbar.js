@@ -1,9 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import { Link } from 'react-router-dom'
-// import { Link } from 'react-router-dom'
-// import { Link } from 'react-router-dom'
-// import  link  from 'react-router-dom'
+// import { Link } from 'react-router-dom' we dont use link and to tag becuase it cause problem in github deployment
 
 export default function Navbar(props) {
   return (
@@ -30,7 +27,7 @@ export default function Navbar(props) {
           <button className="btn btn-dark" type="submit">Search</button>
         </form> */
         <div className={`form-check form-switch text-${props.mode==="light"?"dark":"light"}`}>
-            <input className="form-check-input" type="checkbox" onClick={props.toggleMode} role="switch" id="flexSwitchCheckDefault"/>
+            <input className="form-check-input" onClick={props.toggleMode} type="checkbox"  role="switch" id="flexSwitchCheckDefault"/>
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable DarkMode</label>
         </div>
         }

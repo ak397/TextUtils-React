@@ -1,6 +1,6 @@
 {
   "homepage": "https://ak397.github.io/TextUtils-React",
-  "name": "TextUtils-React",
+  "name": "textutils",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
