@@ -45,18 +45,19 @@ function App() {
 
   return (
     <>
-    <Router>
+    {/* <Router> */}
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} />
     <Alert alert={alert}/>
     <div className="container my-3">
-    <Routes>
+    <TextForm heading="Try TextUtils - word counter, character counter, remove extra spaces"  mode={mode} showAlert={showAlert} />
+    {/* <Routes> */}
             {/* <Route path="/about" element={<About mode={mode} />}>
             </Route> */}
-            <Route path="/" element={<TextForm heading="Try TextUtils - word counter, character counter, remove extra spaces"  mode={mode} showAlert={showAlert} />}>
-            </Route>
-    </Routes>
+            {/* <Route path="/" element={<TextForm heading="Try TextUtils - word counter, character counter, remove extra spaces"  mode={mode} showAlert={showAlert} />}> */}
+            {/* </Route> */}
+    {/* </Routes> */}
     </div>
-    </Router>
+    {/* // </Router> */}
     </>
   );
 }
