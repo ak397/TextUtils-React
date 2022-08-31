@@ -1,5 +1,3 @@
 h2,h3{
     text-align: center;
 }
-.accordion-button::after {
-    filter: invert(1);}
